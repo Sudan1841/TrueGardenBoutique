@@ -8,16 +8,20 @@ object DataService {
         Category("SHIRTS", "shirtimage"),
         Category("HOODIES", "hoodieimage"),
         Category("HATS", "hatimage"),
-        Category("Salad", "salad"),
+        Category("SALAD", "salad"),
         Category("DIGTAL", "digitalgoodsimage"),
-        Category("SHIRTS", "shirtimage"),
-        Category("HOODIES", "hoodieimage"),
-        Category("HATS", "hatimage"),
-        Category("DIGTAL", "digitalgoodsimage"),
-        Category("SHIRTS", "shirtimage"),
-        Category("HOODIES", "hoodieimage"),
-        Category("HATS", "hatimage"),
-        Category("DIGTAL", "digitalgoodsimage")
+
+        Category("SHOSE", "shirtimage"),
+        Category("PHONES", "concert"),
+        Category("UNDERWEAR", "hatimage"),
+        Category("SNEAKERS", "digitalgoodsimage"),
+        Category("BOOKS", "salad"),
+
+        Category("NOTEBOOKS", "salad"),
+        Category("SUITCASES", "shirtimage"),
+        Category("HANDBAG", "hoodieimage"),
+        Category("CARMAT", "carwash"),
+        Category("PANTS", "digitalgoodsimage")
     )
     val  hats = listOf(
         Product("DEVSLOPES GRAHPIC BEANIE","$18", "hat1"),
