@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.ProductsActivity">
+<RelativeLayout
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginLeft="0dp"
+
+        android:background="@drawable/shirtimage"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#F6FAFA"
+        android:textSize="30sp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productListView"
+        android:layout_below="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-1dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+</RelativeLayout>
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        tools:layout_editor_absoluteX="175dp"-->
+<!--        tools:layout_editor_absoluteY="109dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button"-->
+<!--        tools:layout_editor_absoluteX="198dp"-->
+<!--        tools:layout_editor_absoluteY="242dp" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:srcCompat="@drawable/hat1"-->
+<!--        tools:layout_editor_absoluteX="242dp"-->
+<!--        tools:layout_editor_absoluteY="419dp" />-->
+</GridLayout>
